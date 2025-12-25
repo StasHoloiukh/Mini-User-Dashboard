@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import type { User } from '../types/user'
-import { fetchUsers } from "../services/userService";
+import { fetchUsers } from '../services/userService';
 
 
 export const useUsers = () => {
@@ -14,5 +14,5 @@ export const useUsers = () => {
        }) 
     }, []);
 
-    return [users, loading];
+    return {users, loading};
 }
