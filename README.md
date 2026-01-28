@@ -22,7 +22,7 @@ This repository contains a compact demo application that displays a list of user
 
 ## Quick start
 
-Requirements: Node.js (recommended 16+)
+Requirements: Node.js
 
 Install dependencies:
 
